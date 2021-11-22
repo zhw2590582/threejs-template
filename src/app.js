@@ -1,5 +1,5 @@
 import "regenerator-runtime/runtime";
-import Emitter from "./libs/emitter";
+import Emitter from "./utils/emitter";
 import Animation from "./animation";
 import Camera from "./camera";
 import Control from "./control";
