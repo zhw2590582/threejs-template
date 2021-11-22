@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "parcel src/index.html --open",
-    "build": "parcel build src/index.html --out-dir docs"
+    "build": "parcel build src/index.html --out-dir docs --public-url /threejs-template/"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
