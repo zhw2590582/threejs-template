@@ -22,7 +22,7 @@ export default class Scenes {
   }
 
   async addBird() {
-    const { model, clip } = await modelLoader("/models/Parrot.glb");
+    const { model, clip } = await modelLoader("./models/Parrot.glb");
     model.position.y = 1;
     this.app.scene.add(model);
     this.app.control.target.copy(model.position);
