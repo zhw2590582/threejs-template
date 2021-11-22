@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAKA,eAHE,WAMF,CAHA,KAEE,qBACF","file":"style.caa294fc.css","sourceRoot":"../src","sourcesContent":["html,\nbody {\n  height: 100%;\n}\n\n#app {\n  height: 100%;\n  background-color: #000;\n}"]}
