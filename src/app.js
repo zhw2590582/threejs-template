@@ -1,4 +1,3 @@
-import "normalize.css";
 import "regenerator-runtime/runtime";
 import Emitter from "./libs/emitter";
 import Animation from "./animation";
