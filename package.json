@@ -1,0 +1,22 @@
+{
+  "name": "threejs-template",
+  "version": "1.0.0",
+  "description": "Threejs Template",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "staticFiles": {
+    "staticPath": "./src/assets",
+    "watcherGlob": "**"
+  },
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-static-files-copy": "^2.6.0"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "three": "^0.134.0"
+  }
+}
